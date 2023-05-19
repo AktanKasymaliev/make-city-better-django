@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "make-city-better-django"
+version = "0.1.0"
+description = ""
+authors = ["AktanKasymaliev <aktan.kasymaliev@icloud.com>"]
+readme = "README.md"
+packages = [{include = "make_city_better_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,10 @@
+[SYSTEM]
+DJANGO_KEY=key
+DJANGO_DEBUG=bool
+
+[DATABASE]
+PASSWORD=password
+USER=username
+NAME=db_name
+HOST=host
+PORT=port
